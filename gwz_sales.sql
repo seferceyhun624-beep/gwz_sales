@@ -1,4 +1,5 @@
 SELECT
+  SUM(purchase_cost) AS total_purchase_cost
   DATE(date_date) AS day,
   SUM(turnover) AS daily_sales,
 FROM `data-analytics-469406.course14.gwz_sales`
